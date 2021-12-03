@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "147700069317",
+    "project_id": "blood-donation-app-940cb",
+    "storage_bucket": "blood-donation-app-940cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147700069317:android:89df1c93f2c1e7a92e51ac",
+        "android_client_info": {
+          "package_name": "com.example.hafsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147700069317-7rjprhhoitagmto835ndirc2kef3hv7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwbIiR1i_fdCM1TRXFmDZ44U3KJJX8Je0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147700069317-7rjprhhoitagmto835ndirc2kef3hv7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
