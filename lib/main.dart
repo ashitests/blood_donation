@@ -6,28 +6,45 @@ import 'package:hafsa/ui/welcome/user_onboarding.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  WidgetsFlutterBinding
+      .ensureInitialized();
+  await Firebase
+      .initializeApp();
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+function() {
+  print('fuck');
+}
+
+class MyApp
+    extends StatelessWidget {
   // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
+  Widget build(
+      BuildContext context) {
     return MultiProvider(
       providers: [
-        Provider<FirebaseAuthService>(
-          create: (_) => FirebaseAuthService(),
+        Provider<
+            FirebaseAuthService>(
+          create: (_) =>
+              FirebaseAuthService(),
         ),
-        ChangeNotifierProvider<SearchDonorController>(
-            create: (context) => SearchDonorController())
+        ChangeNotifierProvider<
+                SearchDonorController>(
+            create: (context) =>
+                SearchDonorController())
       ],
       child: MaterialApp(
         theme: ThemeData().copyWith(
-            accentColor: Colors.redAccent, primaryColor: Colors.redAccent),
-        debugShowCheckedModeBanner: false,
-        title: 'Blood Donation App',
+            accentColor: Colors
+                .redAccent,
+            primaryColor: Colors
+                .redAccent),
+        debugShowCheckedModeBanner:
+            false,
+        title:
+            'Blood Donation App',
         home: OnBoarding(),
       ),
     );
